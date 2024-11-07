@@ -9,7 +9,7 @@ export const MosaicData: React.FC<{ company: CompanyInfo }> = ({ company }) => {
                 <b>Ticker:</b>&ensp;<p>{company.ticker}</p>
             </div>
             <div className="flex my-3 flex-wrap">
-                <b>Name:</b><p>{company.name}</p>
+                <b>Name:</b>&ensp;<p>{company.name}</p>
             </div>
             <div className="flex my-3 flex-wrap">
                 <b>Legal Name:</b>&ensp;<p>{company.legal_name}</p>

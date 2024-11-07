@@ -18,6 +18,13 @@ const CompanyInfoWidget: React.FC<CompanyInfoWidgetProps> = ({ ticker }) => {
           fetchData();
     }, [ticker]);
 
+
+    if(ticker === ""){
+        return (
+            <h2>Empty!</h2>
+        )
+    }
+
     return (
         <div>
             {company ? (
