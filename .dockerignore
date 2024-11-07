@@ -4,5 +4,4 @@ build
 .dockerignore
 .git
 .gitignore
-Dockerfile
 *.md
